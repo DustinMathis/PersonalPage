@@ -1,0 +1,136 @@
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; }
+
+body {
+  background: url("../img/bg-image.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  width: 100%;
+  margin: 0px;
+  overflow-x: hidden; }
+
+.btn1 {
+  background: transparent;
+  border-color: #707074; }
+
+.navbar {
+  background: rgba(0, 0, 0, 0.4) !important; }
+
+.dark-overlay {
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.4); }
+
+#home-section {
+  height: 70vh; }
+  #home-section .inner {
+    padding-top: 7vh; }
+
+.lead {
+  font-size: 1.4rem;
+  animation: fadeInAnimation ease 10s; }
+
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 500; }
+
+.footer {
+  background-color: #333; }
+
+.page-footer {
+  height: 10%;
+  background-color: #333; }
+
+.cover-heading {
+  font-size: 4rem;
+  animation: fadeInAnimation ease 5s; }
+
+.listItem {
+  color: #707074; }
+  .listItem :hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3); }
+
+.profile-pic {
+  border-radius: 50%;
+  border: #707074 2px solid;
+  animation: fadeInAnimation ease 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; }
+
+.about-section {
+  padding-top: 125px;
+  background-color: #333 !important;
+  color: #fff; }
+
+.grow:hover {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3); }
+
+.skills {
+  background-color: #fff !important; }
+
+.skills-heading {
+  color: #707074;
+  font-size: 4rem;
+  animation: fadeInAnimation ease 5s; }
+
+.icons {
+  margin-top: 3rem;
+  font-size: 2rem !important;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
+  padding: 0; }
+  .icons .faicon {
+    font-size: 4rem; }
+
+.listItem {
+  margin: 1.4rem 1.4rem 1.4rem 1.4rem; }
+
+.itemli {
+  font-size: 1rem !important; }
+
+.icons li {
+  list-style-type: none; }
+
+.icons li a {
+  color: #fff; }
+
+.icons li a:hover {
+  color: #707074; }
+
+ul {
+  list-style-type: none; }
+
+.footer-copyright {
+  font-size: .7rem;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.footer-link {
+  color: #fff; }
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@media (min-width: 992px) {
+  .navbar {
+    height: 65px; } }
+
+@media only screen and (max-width: 340px) {
+  #home-section {
+    font-size: 9px; }
+    #home-section .cover-heading {
+      font-size: 6vh; }
+    #home-section .lead {
+      font-size: 3.5vh; }
+  .iconlistcontainer {
+    margin-right: 20px; } }
